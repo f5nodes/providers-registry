@@ -18,6 +18,16 @@
             "websocket": "wss://mocha.celestia.rpc.cumulo.me:443/websocket"
           }
         }
+      },
+      {
+        "chain": "story",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://api.story.cumulo.me",
+            "rpc": "https://rpc.story.cumulo.me/",
+            "websocket": "wss://rpc.story.cumulo.me/websocket"
+          }
+        }
       }
     ]
-  }
+}

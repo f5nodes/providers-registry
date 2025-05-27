@@ -1,0 +1,16 @@
+{
+    "name": "BlockHub",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://story-mainnet-api.blockhub.id/",
+            "rpc": "https://story-mainnet-rpc.blockhub.id/",
+            "websocket": "wss://story-mainnet-rpc.blockhub.id/websocket"
+          }
+        }
+      }
+    ]
+  }

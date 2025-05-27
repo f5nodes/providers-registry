@@ -18,6 +18,16 @@
               "websocket": "wss://rpc-1.testnet.celestia.nodes.guru/websocket"
             }
           }
+        },
+        {
+          "chain": "story",
+          "endpoints": {
+            "mainnet": {
+              "api": "https://api-1.story.nodes.guru",
+              "rpc": "https://rpc-1.story.nodes.guru/",
+              "websocket": "wss://rpc-1.story.nodes.guru/websocket"
+            }
+          }
         }
     ]
 }

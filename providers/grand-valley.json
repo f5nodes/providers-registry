@@ -1,0 +1,16 @@
+{
+    "name": "Grand Valley",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://lightnode-api-mainnet-story.grandvalleys.com",
+            "rpc": "https://lightnode-rpc-mainnet-story.grandvalleys.com/",
+            "websocket": "wss://lightnode-rpc-mainnet-story.grandvalleys.com/websocket"
+          }
+        }
+      }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "NodeStake",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://api.story.nodestake.org",
+            "rpc": "https://rpc.story.nodestake.org/",
+            "websocket": "wss://rpc.story.nodestake.org/websocket"
+          }
+        }
+      }
+    ]
+}

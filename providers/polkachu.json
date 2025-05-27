@@ -1,0 +1,16 @@
+{
+    "name": "Polkachu",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://story-api.polkachu.com",
+            "rpc": "https://story-rpc.polkachu.com/",
+            "websocket": "wss://story-rpc.polkachu.com/websocket"
+          }
+        }
+      }
+    ]
+}
