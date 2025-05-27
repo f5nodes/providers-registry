@@ -24,8 +24,18 @@
           "endpoints": {
             "mainnet": {
               "api": "https://api-1.story.nodes.guru",
-              "rpc": "https://rpc-1.story.nodes.guru/",
+              "rpc": "https://rpc-1.story.nodes.guru",
               "websocket": "wss://rpc-1.story.nodes.guru/websocket"
+            }
+          }
+        },
+        {
+          "chain": "initia",
+          "endpoints": {
+            "testnet": {
+              "api": "https://api-1.testnet.initia.nodes.guru",
+              "rpc": "https://rpc-1.testnet.initia.nodes.guru",
+              "websocket": "wss://rpc-1.testnet.initia.nodes.guru/websocket"
             }
           }
         }

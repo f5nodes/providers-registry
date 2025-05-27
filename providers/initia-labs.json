@@ -1,0 +1,23 @@
+{
+    "name": "Initia Labs",
+    "active": true,
+    "chains": [
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://rest.initia.xyz",
+            "rpc": "https://rpc.initia.xyz",
+            "grpc": "grpc.initia.xyz:443",
+            "websocket": "wss://rpc.initia.xyz/websocket"
+          },
+          "testnet": {
+            "api": "https://rest.testnet.initia.xyz",
+            "rpc": "https://rpc.testnet.initia.xyz",
+            "grpc": "grpc.testnet.initia.xyz:443",
+            "websocket": "wss://rpc.testnet.initia.xyz/websocket"
+          }
+        }
+      }
+    ]
+}

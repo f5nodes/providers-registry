@@ -1,0 +1,17 @@
+{
+    "name": "Lavender.Five",
+    "active": true,
+    "chains": [
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://rest.lavenderfive.com/initia",
+            "rpc": "https://rpc.lavenderfive.com/initia",
+            "grpc": "initia.lavenderfive.com:443",
+            "websocket": "wss://rpc.lavenderfive.com:443/initia/websocket"
+          }
+        }
+      }
+    ]
+}

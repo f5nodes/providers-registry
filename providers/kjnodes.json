@@ -18,6 +18,23 @@
             "websocket": "wss://celestia-testnet.rpc.kjnodes.com:443/websocket"
           }
         }
+      },
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://initia.api.kjnodes.com",
+            "rpc": "https://initia.rpc.kjnodes.com",
+            "grpc": "initia.grpc.kjnodes.com:443",
+            "websocket": "wss://initia.rpc.kjnodes.com/websocket"
+          },
+          "testnet": {
+            "api": "https://initia-testnet.api.kjnodes.com",
+            "rpc": "https://initia-testnet.rpc.kjnodes.com",
+            "grpc": "initia-testnet.grpc.kjnodes.com:443",
+            "websocket": "wss://initia-testnet.rpc.kjnodes.com/websocket"
+          }
+        }
       }
     ]
 }

@@ -11,6 +11,23 @@
             "websocket": "wss://story-rpc.polkachu.com/websocket"
           }
         }
+      },
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://initia-api.polkachu.com",
+            "rpc": "https://initia-rpc.polkachu.com",
+            "grpc": "initia-grpc.polkachu.com:25790",
+            "websocket": "wss://initia-rpc.polkachu.com/websocket"
+          },
+          "testnet": {
+            "api": "https://initia-testnet-api.polkachu.com",
+            "rpc": "https://initia-testnet-rpc.polkachu.com",
+            "grpc": "initia-testnet-grpc.polkachu.com:25790",
+            "websocket": "wss://initia-testnet-rpc.polkachu.com/websocket"
+          }
+        }
       }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "AutoStake",
+    "active": true,
+    "chains": [
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://initia-mainnet-lcd.autostake.com",
+            "rpc": "https://initia-mainnet-rpc.autostake.com",
+            "grpc": "initia-mainnet-grpc.autostake.com:443",
+            "websocket": "wss://initia-mainnet-rpc.autostake.com/websocket"
+          }
+        }
+      }
+    ]
+}

@@ -11,6 +11,17 @@
             "websocket": "wss://rpc.story.nodestake.org/websocket"
           }
         }
+      },
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://api.initia.nodestake.org",
+            "rpc": "https://rpc.initia.nodestake.org",
+            "grpc": "grpc.initia.nodestake.org:443",
+            "websocket": "wss://rpc.initia.nodestake.org/websocket"
+          }
+        }
       }
     ]
 }

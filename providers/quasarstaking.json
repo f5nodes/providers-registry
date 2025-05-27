@@ -1,0 +1,17 @@
+{
+    "name": "QuasarStaking",
+    "active": true,
+    "chains": [
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://initia.api.quasarstaking.ai",
+            "rpc": "https://initia.rpc.quasarstaking.ai",
+            "grpc": "initia.grpc.quasarstaking.ai:80",
+            "websocket": "wss://initia.rpc.quasarstaking.ai/websocket"
+          }
+        }
+      }
+    ]
+}

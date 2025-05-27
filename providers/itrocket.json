@@ -18,6 +18,23 @@
             "websocket": "wss://celestia-testnet-rpc.itrocket.net:443/websocket"
           }
         }
+      },
+      {
+        "chain": "initia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://initia-mainnet-api.itrocket.net",
+            "rpc": "https://initia-mainnet-rpc.itrocket.net",
+            "grpc": "initia-mainnet-grpc.itrocket.net:443",
+            "websocket": "wss://initia-mainnet-rpc.itrocket.net/websocket"
+          },
+          "testnet": {
+            "api": "https://initia-testnet-api.itrocket.net",
+            "rpc": "https://initia-testnet-rpc.itrocket.net",
+            "grpc": "initia-testnet-grpc.itrocket.net:443",
+            "websocket": "wss://initia-testnet-rpc.itrocket.net/websocket"
+          }
+        }
       }
     ]
 }
