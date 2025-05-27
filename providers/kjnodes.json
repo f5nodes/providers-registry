@@ -1,0 +1,23 @@
+{
+    "name": "kjnodes",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://celestia.api.kjnodes.com",
+            "rpc": "https://celestia.rpc.kjnodes.com",
+            "grpc": "celestia.grpc.kjnodes.com:443",
+            "websocket": "wss://celestia.rpc.kjnodes.com:443/websocket"
+          },
+          "testnet": {
+            "api": "https://celestia-testnet.api.kjnodes.com",
+            "rpc": "https://celestia-testnet.rpc.kjnodes.com",
+            "grpc": "celestia-testnet.grpc.kjnodes.com:443",
+            "websocket": "wss://celestia-testnet.rpc.kjnodes.com:443/websocket"
+          }
+        }
+      }
+    ]
+  }

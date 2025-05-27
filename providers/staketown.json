@@ -1,0 +1,23 @@
+{
+    "name": "Stake-Town",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://celestia-api.stake-town.com",
+            "rpc": "https://celestia-rpc.stake-town.com",
+            "grpc": "celestia-grpc.stake-town.com:443",
+            "websocket": "wss://celestia-rpc.stake-town.com:443/websocket"
+          },
+          "testnet": {
+            "api": "https://celestia-testnet-api.stake-town.com",
+            "rpc": "https://celestia-testnet-rpc.stake-town.com",
+            "grpc": "celestia-testnet-grpc.stake-town.com:443",
+            "websocket": "wss://celestia-testnet-rpc.stake-town.com:443/websocket"
+          }
+        }
+      }
+    ]
+  }

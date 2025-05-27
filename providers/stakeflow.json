@@ -1,0 +1,23 @@
+{
+    "name": "Stakeflow",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://api-celestia-01.stakeflow.io",
+            "rpc": "https://rpc-celestia-01.stakeflow.io",
+            "grpc": "grpc-celestia-01.stakeflow.io:15002",
+            "websocket": "wss://rpc-celestia-01.stakeflow.io:443/websocket"
+          },
+          "testnet": {
+            "api": "https://api-celestia-testnet-01.stakeflow.io/",
+            "rpc": "https://rpc-celestia-testnet-01.stakeflow.io",
+            "grpc": "grpc-celestia-testnet-01.stakeflow.io:16002",
+            "websocket": "wss://rpc-celestia-testnet-01.stakeflow.io:443/websocket"
+          }
+        }
+      }
+    ]
+  }

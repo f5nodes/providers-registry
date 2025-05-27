@@ -1,0 +1,23 @@
+{
+    "name": "P-OPS Team",
+    "active": true,
+    "chains": [
+        {
+          "chain": "celestia",
+          "endpoints": {
+            "mainnet": {
+              "api": "https://api.celestia.pops.one",
+              "rpc": "https://rpc.celestia.pops.one",
+              "grpc": "grpc.celestia.pops.one:9090",
+              "websocket": "wss://rpc.celestia.pops.one/websocket"
+            },
+            "testnet": {
+              "api": "https://api-mocha.pops.one",
+              "rpc": "https://rpc-mocha.pops.one",
+              "grpc": "grpc-mocha.pops.one:9090",
+              "websocket": "wss://rpc-mocha.pops.one/websocket"
+            }
+          }
+        }
+    ]
+}

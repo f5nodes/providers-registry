@@ -1,0 +1,23 @@
+{
+    "name": "Nodes.Guru",
+    "active": true,
+    "chains": [
+        {
+          "chain": "celestia",
+          "endpoints": {
+            "mainnet": {
+              "api": "https://api-1.celestia.nodes.guru",
+              "rpc": "https://rpc-1.celestia.nodes.guru",
+              "grpc": "grpc-1.celestia.nodes.guru:10790",
+              "websocket": "wss://rpc-1.celestia.nodes.guru/websocket"
+            },
+            "testnet": {
+              "api": "https://api-1.testnet.celestia.nodes.guru",
+              "rpc": "https://rpc-1.testnet.celestia.nodes.guru",
+              "grpc": "grpc-1.testnet.celestia.nodes.guru:10790",
+              "websocket": "wss://rpc-1.testnet.celestia.nodes.guru/websocket"
+            }
+          }
+        }
+    ]
+}

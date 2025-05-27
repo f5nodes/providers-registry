@@ -1,0 +1,23 @@
+{
+    "name": "itrocket",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://celestia-mainnet-api.itrocket.net",
+            "rpc": "https://celestia-mainnet-rpc.itrocket.net",
+            "grpc": "celestia-mainnet-grpc.itrocket.net:443",
+            "websocket": "wss://celestia-mainnet-rpc.itrocket.net:443/websocket"
+          },
+          "testnet": {
+            "api": "https://celestia-testnet-api.itrocket.net",
+            "rpc": "https://celestia-testnet-rpc.itrocket.net",
+            "grpc": "celestia-testnet-grpc.itrocket.net:443",
+            "websocket": "wss://celestia-testnet-rpc.itrocket.net:443/websocket"
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "name": "Brightlystake",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://celestia-rpc.brightlystake.com/api",
+            "rpc": "https://celestia-rpc.brightlystake.com",
+            "grpc": "celestia-rpc.brightlystake.com:9090",
+            "websocket": "wss://celestia-rpc.brightlystake.com:443/websocket"
+          },
+          "testnet": {
+            "api": "https://celestia-testnet.brightlystake.com/api",
+            "rpc": "https://celestia-testnet.brightlystake.com",
+            "grpc": "celestia-testnet.brightlystake.com:9390",
+            "websocket": "wss://celestia-testnet.brightlystake.com:443/websocket"
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "name": "Trusted Point",
+    "active": true,
+    "chains": [
+      {
+        "chain": "celestia",
+        "endpoints": {
+          "mainnet": {
+            "api": "https://api-celestia-mainnet.trusted-point.com",
+            "rpc": "https://rpc-celestia-mainnet.trusted-point.com",
+            "grpc": "grpc-celestia-mainnet.trusted-point.com:9095",
+            "websocket": "wss://rpc-celestia-mainnet.trusted-point.com:443/websocket"
+          },
+          "testnet": {
+            "api": "https://api-celestia-mocha.trusted-point.com",
+            "rpc": "https://rpc-celestia-mocha.trusted-point.com",
+            "grpc": "grpc-celestia-mocha.trusted-point.com:9099",
+            "websocket": "wss://rpc-celestia-mocha.trusted-point.com:443/websocket"
+          }
+        }
+      }
+    ]
+  }

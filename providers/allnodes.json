@@ -1,0 +1,23 @@
+{
+    "name": "Allnodes",
+    "active": true,
+    "chains": [
+        {
+          "chain": "celestia",
+          "endpoints": {
+            "mainnet": {
+              "api": "https://celestia-rest.publicnode.com",
+              "rpc": "https://celestia-rpc.publicnode.com",
+              "grpc": "celestia-grpc.publicnode.com:443",
+              "websocket": "wss://celestia-rpc.publicnode.com:443/websocket"
+            },
+            "testnet": {
+              "api": "https://celestia-mocha-rest.publicnode.com",
+              "rpc": "https://celestia-mocha-rpc.publicnode.com",
+              "grpc": "celestia-mocha-grpc.publicnode.com:443",
+              "websocket": "wss://celestia-mocha-rpc.publicnode.com:443/websocket"
+            }
+          }
+        }
+    ]
+}
