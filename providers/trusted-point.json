@@ -1,6 +1,6 @@
 {
     "name": "Trusted Point",
-    "active": true,
+    "active": false,
     "chains": [
       {
         "chain": "celestia",
