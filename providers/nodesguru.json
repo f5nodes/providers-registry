@@ -35,6 +35,7 @@
             "testnet": {
               "api": "https://api-1.testnet.initia.nodes.guru",
               "rpc": "https://rpc-1.testnet.initia.nodes.guru",
+              "grpc": "grpc-1.testnet.initia.nodes.guru:443",
               "websocket": "wss://rpc-1.testnet.initia.nodes.guru/websocket"
             }
           }
