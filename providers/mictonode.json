@@ -1,0 +1,16 @@
+{
+    "name": "Mictonode",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "testnet": {
+            "api": "https://story-testnet-api.mictonode.com",
+            "rpc": "https://story-testnet-rpc.mictonode.com",
+            "websocket": "wss://story-testnet-rpc.mictonode.com/websocket"
+          }
+        }
+      }
+    ]
+}

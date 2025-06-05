@@ -7,8 +7,13 @@
         "endpoints": {
           "mainnet": {
             "api": "https://lightnode-api-mainnet-story.grandvalleys.com",
-            "rpc": "https://lightnode-rpc-mainnet-story.grandvalleys.com/",
+            "rpc": "https://lightnode-rpc-mainnet-story.grandvalleys.com",
             "websocket": "wss://lightnode-rpc-mainnet-story.grandvalleys.com/websocket"
+          },
+          "testnet": {
+            "api": "https://lightnode-api-story.grandvalleys.com",
+            "rpc": "https://lightnode-rpc-story.grandvalleys.com",
+            "websocket": "wss://lightnode-rpc-story.grandvalleys.com/websocket"
           }
         }
       }

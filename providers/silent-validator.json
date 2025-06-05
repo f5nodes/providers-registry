@@ -7,8 +7,13 @@
         "endpoints": {
           "mainnet": {
             "api": "https://api.story.silentvalidator.com",
-            "rpc": "https://rpc.story.silentvalidator.com/",
+            "rpc": "https://rpc.story.silentvalidator.com",
             "websocket": "wss://rpc.story.silentvalidator.com/websocket"
+          },
+          "testnet": {
+            "api": "https://aeneid.api.story.silentvalidator.com",
+            "rpc": "https://aeneid.rpc.story.silentvalidator.com",
+            "websocket": "wss://aeneid.rpc.story.silentvalidator.com/websocket"
           }
         }
       }

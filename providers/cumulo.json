@@ -24,8 +24,13 @@
         "endpoints": {
           "mainnet": {
             "api": "https://api.story.cumulo.me",
-            "rpc": "https://rpc.story.cumulo.me/",
+            "rpc": "https://rpc.story.cumulo.me",
             "websocket": "wss://rpc.story.cumulo.me/websocket"
+          },
+          "testnet": {
+            "api": "https://api.story-aeneid.cumulo.me",
+            "rpc": "https://rpc.story-aeneid.cumulo.me",
+            "websocket": "wss://rpc.story-aeneid.cumulo.me/websocket"
           }
         }
       }

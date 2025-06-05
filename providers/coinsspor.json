@@ -1,0 +1,16 @@
+{
+    "name": "CoinsSpore",
+    "active": true,
+    "chains": [
+      {
+        "chain": "story",
+        "endpoints": {
+          "testnet": {
+            "api": "https://story-aeneid-testnet-api.coinsspor.com",
+            "rpc": "https://story-aeneid-testnet-rpc.coinsspor.com",
+            "websocket": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket"
+          }
+        }
+      }
+    ]
+}
